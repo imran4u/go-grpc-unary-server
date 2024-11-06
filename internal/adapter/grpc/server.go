@@ -3,7 +3,7 @@ package grpc
 import (
 	"net"
 
-	"github.com/imran4u/go-grpc-proto/tree/main/protogen/go/hello"
+	"github.com/imran4u/go-grpc-proto/protogen/go/hello"
 	"github.com/imran4u/go-grpc-unary-server/internal/port"
 	"google.golang.org/grpc"
 )
