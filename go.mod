@@ -3,7 +3,7 @@ module github.com/imran4u/go-grpc-unary-server
 go 1.22.6
 
 require (
-	github.com/imran4u/go-grpc-proto v0.0.1
+	github.com/imran4u/go-grpc-proto v0.0.2
 	google.golang.org/grpc v1.67.1
 )
 
