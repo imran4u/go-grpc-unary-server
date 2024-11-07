@@ -7,7 +7,8 @@ import (
 )
 
 func (a *GrpcAdapter) SayHello(ctx context.Context, req *hello.HelloRequest) (*hello.HelloResponse, error) {
+
 	return &hello.HelloResponse{
-		Message: a.helloservice.GenerateHello(req.Name),
+		Greet: a.helloservice.GenerateHello(req.Name),
 	}, nil
 }
